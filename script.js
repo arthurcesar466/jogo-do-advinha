@@ -1,7 +1,7 @@
 function checkGuess() {
     var guess = document.getElementById("guess").value;
     var result = document.getElementById("result");
-    result.innerHTML = "Você acertou!";
+    result.innerHTML = "Você acertou!!";
     document.getElementById("reiniciar").removeAttribute("disabled");
   }
   
